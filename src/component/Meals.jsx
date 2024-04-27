@@ -15,7 +15,6 @@ const Meals = () => {
   useEffect(() => {
     fetchMeals();
   });
-  console.log(loadedMeals);
 
   return (
     <ul id="meals">
